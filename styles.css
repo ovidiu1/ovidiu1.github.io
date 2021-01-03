@@ -1,0 +1,173 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: #4b0082;
+  text-decoration: none;
+}
+
+body {
+  line-height: 1;
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #2a2e2e;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+
+.animated {
+  animation: fade-in-down 0.6s;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+}
+
+.wrapper-normal {
+  height: 100%;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.icon {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  fill: #000;
+  text-align: center;
+  color: #000;
+  margin: 7px auto;
+}
+
+.header-home {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 99;
+}
+
+.header-home>.link>.selfie {
+  width: 235px;
+  /* margin-bottom: 25px; */
+  /* border-radius: 100%; */
+  transition: all 0.2s;
+  box-shadow: 0;
+  opacity: 1;
+  clip-path: circle(47%);
+}
+
+header > a:hover {
+  opacity: 0.2;
+}
+
+.header-home>.description {
+  font-size: 1.85rem;
+  font-weight: 300;
+  font-style: normal;
+  color: #333;
+  width: 70%;
+  margin: 0 auto 30px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links>.link {
+  margin: 0;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+}
+
+.nav-home {
+  margin-top: 40px;
+  text-align: right;
+}
+
+.nav>.list,
+.nav-home>.list {
+  list-style: none;
+  margin: 0;
+}
+
+.nav>.list>.item,
+.nav-home>.list>.item {
+  display: inline-block;
+}
+
+.page {
+  margin-top: 125px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+img,
+pre,
+iframe {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 400px) {
+
+  .wrapper-normal,
+  .wrapper-large {
+    width: 88%;
+  }
+}
+
+
+/* Glyph, by Harry Roberts */
+
+hr.style-eight {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr.style-eight:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+.moto {
+  font-style: italic;
+}
+
+/* .mod-article { 
+  text-align: center;
+}
+
+.article-title {
+  text-align: left;
+} */

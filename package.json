@@ -1,0 +1,30 @@
+{
+  "name": "ovidiuo.io",
+  "email":"ovidiuolea@outlook.com",
+  "version": "1.0.0",
+  "description": "Developer Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovidiu1/ovidiuo.io.git"
+  },
+  "keywords": [
+    "Website;",
+    "Presentation;",
+    "Stack"
+  ],
+  "author": "Ovidiu Olea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovidiu1/ovidiuo.io/issues"
+  },
+  "homepage": "https://github.com/ovidiu1/ovidiuo.io#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "live-server": "^1.2.1",
+    "webpack": "^4.44.1"
+  }
+}
