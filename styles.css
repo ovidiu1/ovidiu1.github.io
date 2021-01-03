@@ -132,7 +132,6 @@ img {
 }
 
 @media only screen and (max-width: 1050px) and (min-width: 400px) {
-
   .wrapper-normal,
   .wrapper-large {
     width: 88%;
@@ -171,3 +170,13 @@ hr.style-eight:after {
 .article-title {
   text-align: left;
 } */
+@media only screen and (min-width: 375px) {
+  .nav-home {
+    /* margin-top: 40px; */
+    text-align: center;
+  }
+  .page {
+    margin-top: 50px;
+  }
+
+}
