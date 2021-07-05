@@ -221,6 +221,20 @@ hr.style-eight:after {
   margin-left: 16px;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
+
+
 /* .mod-article { 
   text-align: center;
 } */
