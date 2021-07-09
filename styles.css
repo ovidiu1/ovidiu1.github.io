@@ -9,7 +9,7 @@ h4 {
 }
 
 a {
-  color: #4b0082;
+  color: #000;
   text-decoration: none;
 }
 
@@ -146,12 +146,12 @@ img {
 
 @media only screen and (max-width: 1050px) and (min-width: 400px) {
   .nav-home {
-    /* text-align: start; */
-    padding-right: 20px;
+    text-align: inherit;
   }
   .home-page {
     margin-top: 20%;
   }
+  
 }
 
 
