@@ -145,18 +145,18 @@ img {
 }
 
 @media only screen and (max-width: 1050px) and (min-width: 400px) {
-  .wrapper-normal,
-  .wrapper-large {
-    width: 88%;
+  .nav-home {
+    /* text-align: start; */
+    padding-right: 20px;
+  }
+  .home-page {
+    margin-top: 20%;
   }
 }
 
 
-
-/* Glyph, by Harry Roberts */
-
 hr.style-eight {
-  overflow: visible; /* For IE */
+  overflow: visible;
   padding: 0;
   border: none;
   border-top: medium double #333;
@@ -233,13 +233,3 @@ hr.style-eight:after {
 ::-webkit-scrollbar-thumb:hover {
   background: grey; 
 }
-
-
-/* .mod-article { 
-  text-align: center;
-} */
-
-
-/* .article-title {
-  text-align: left;
-}  */
