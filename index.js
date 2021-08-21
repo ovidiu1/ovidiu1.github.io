@@ -1,35 +1,24 @@
-// $(function(){
+var slideIndex = 1;
 
-//     // define the root of the main content
-  
-//     new $.LazyJaxDavis(function(router){
-  
-//       var $root = $('#lazyjaxdavisroot');
-  
-//       router.bind('everyfetchstart', function(page){
-//         $root.css('opacity', 0.6);
-//         window.scrollTo(0, 0);
-//       });
-  
-//       router.bind('everyfetchsuccess', function(page){
-//         $root.css('opacity', 1);
-//         $newcontent = $(page.rip('content')).hide();
-//         $root.empty().append($newcontent);
-//         $newcontent.fadeIn();
-//         page.trigger('pageready');
-//       });
-  
-//       router.bind('everyfetchfail', function(){
-//         alert('ajax error!');
-//         $root.css('opacity', 1);
-//       });
-  
-//     });
-  
-//   });  
+$(function () {
+  showSlides(slideIndex);
+});
 
-  // $(function() {
-  //   var $root = $('#lazyjaxdavisroot');
-  //   $root.css('opacity', 0.6);
-  //       window.scrollTo(0, 0);
-  // });
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+}
