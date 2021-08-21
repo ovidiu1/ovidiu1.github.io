@@ -1,3 +1,55 @@
+@media only screen and (max-width: 1050px) and (min-width: 400px) {
+  .nav-home {
+    text-align: inherit;
+  }
+  .home-page {
+    margin-top: 20%;
+  }
+
+  /* About me section */
+
+  .client-skills-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .server-skill-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .skill-card {
+    margin-bottom: 16px;
+    border-radius: 25px;
+    border: 2px solid #00BFFF;
+    padding: 20px; 
+    width: 100%;
+  }
+
+  .prev, .next,.text {
+    cursor: pointer;
+    position: absolute;
+    font-size: 11px;
+    background: red;
+    cursor: pointer;
+    top: 52%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+}
+
 h1,
 h2,
 h3,
@@ -119,8 +171,6 @@ header > a:hover {
 
 .page {
     margin-top: 16px;
-  /* margin-top: 110px; */
-  /* margin-top: 125px; */
 }
 
 .home-page {
@@ -151,17 +201,6 @@ img {
   width: 26px;
   height: 26px;
 }
-
-@media only screen and (max-width: 1050px) and (min-width: 400px) {
-  .nav-home {
-    text-align: inherit;
-  }
-  .home-page {
-    margin-top: 20%;
-  }
-  
-}
-
 
 hr.style-eight {
   overflow: visible;
@@ -229,7 +268,6 @@ hr.style-eight:after {
 
 .client-skills-wrapper {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -268,6 +306,7 @@ hr.style-eight:after {
   color: red;
   display: flex;
   justify-content: center;
+  margin-bottom: 6px;
 }
 
 /*  Start slide */
