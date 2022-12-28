@@ -1,7 +1,7 @@
 {
   "name": "ovidiuo.io",
   "email":"ovidiuolea@outlook.com",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Developer Website",
   "main": "index.js",
   "scripts": {
